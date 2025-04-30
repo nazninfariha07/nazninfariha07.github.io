@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Things Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #fffaf6;
+      color: #4a4a4a;
+    }
+    header {
+      background: #f9e4d4;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #5e4b44;
+      font-weight: 600;
+    }
+    .gallery {
+      padding: 3rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #a89b95;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Things I Love</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="next.html">About</a>
+    </nav>
+  </header>
+
+  <section class="gallery">
+    <img src="tea.jpg" alt="Cup of tea">
+    <img src="books.jpg" alt="Cozy books">
+    <img src="sleepycat.jpg" alt="Sleeping cat">
+    <img src="lights.jpg" alt="Warm fairy lights">
+    <img src="hygge.jpg" alt="Hygge setup">
+  </section>
+
+  <footer>
+    &copy; 2025 Fariha | Little joys and warm lights ✨
+  </footer>
+</body>
+</html>
